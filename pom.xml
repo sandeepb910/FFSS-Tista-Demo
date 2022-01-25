@@ -22,11 +22,11 @@
   </modules>
 
   <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-91-144.ec2.internal-releases</name>
-        <url>http://34.227.163.170:8081/artifactory/libs-release</url>
-    </repository>
+    <site>
+      <id>site-server</id>
+      <name>Test Project Site</name>
+      <url>file:///tmp/maven-project-site</url>
+    </site>
   </distributionManagement>
 
   <build>
